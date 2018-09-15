@@ -3,23 +3,31 @@ PODS:
   - AlamofireImage (3.3.1):
     - Alamofire (~> 4.5)
   - SnapKit (4.0.0)
+  - UberCore (0.10.0)
+  - UberRides (0.10.0):
+    - UberCore
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
   - AlamofireImage (~> 3.1)
   - SnapKit (~> 4.0.0)
+  - UberRides (~> 0.9)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - AlamofireImage
     - SnapKit
+    - UberCore
+    - UberRides
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  UberCore: 512950407dadc8045a583e4a509da2750ae7dc21
+  UberRides: cc6d7c5232966e45229dda1534106b33e379dfbe
 
-PODFILE CHECKSUM: a41f0976dd2e923a2d615924f110d6110d2e35a6
+PODFILE CHECKSUM: fef758e6f9a1710f7edb241a0b4ca808d45bc195
 
 COCOAPODS: 1.5.3

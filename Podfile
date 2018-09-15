@@ -9,6 +9,7 @@ target 'HackZurich' do
     pod 'Alamofire', '~> 4.4'
     pod 'AlamofireImage', '~> 3.1'
     pod 'SnapKit', '~> 4.0.0'
+    pod 'UberRides', '~> 0.9'
 
   target 'HackZurichTests' do
     inherit! :search_paths

@@ -147,7 +147,6 @@ extension HMKPillsTableViewController {
                 } else {
                     self.present(popupViewController!, animated: true, completion: nil)
                 }
-                
             }
         }
     }

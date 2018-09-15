@@ -78,17 +78,39 @@ extension HMKMyListViewController: UITableViewDataSource {
         
         Alamofire.request("https://2be030bd.ngrok.io/drugs/\(swissId)/take_a_pill", method: .post, parameters: nil, encoding: Alamofire.JSONEncoding.default, headers: nil).responseJSON { response in
             
-            loader.dismiss(animated: true, completion: nil)
-            
-            if let json = response.result.value as? [String : Any] {
-                let isEmpty = (json["is_empty"] as? Int ?? 1) == 1
-                if let item = self.items.first(where: { String($0.swissId) == sender.identifier }), let index = self.items.index(where: { String($0.swissId) == sender.identifier }) {
-                    let changedItem = HMKMyListItemResponseModel(tabsNumber: item.tabsNumber > 0 ? item.tabsNumber - 1 : 0, swissId: item.swissId, packType: item.packType, name: item.name, isEmpty: isEmpty)
-                    self.items[index] = changedItem
-                    self.tableView.reloadData()
+            loader.dismiss(animated: true, completion: {
+                if let json = response.result.value as? [String : Any] {
+                    let isEmpty = (json["is_empty"] as? Int ?? 1) == 1
+                    if let item = self.items.first(where: { String($0.swissId) == sender.identifier }), let index = self.items.index(where: { String($0.swissId) == sender.identifier }) {
+                        let changedItem = HMKMyListItemResponseModel(tabsNumber: item.tabsNumber > 0 ? item.tabsNumber - 1 : 0, swissId: item.swissId, packType: item.packType, name: item.name, isEmpty: isEmpty)
+                        self.items[index] = changedItem
+                        self.tableView.reloadData()
+                        
+                        if isEmpty {
+                            self.showEmptyPopup()
+                        }
+                    }
                 }
-            }
+            })
         }
+    }
+    
+    private func showEmptyPopup() {
+        if let emptyViewController = storyboard?.instantiateViewController(withIdentifier: "HMKEmptyDrugViewControllerID") as? HMKEmptyDrugViewController {
+            emptyViewController.backWithAction = { [weak self] in
+                emptyViewController.dismiss(animated: true, completion: {
+                    self?.fireMapAction()
+                })
+            }
+            emptyViewController.modalTransitionStyle = .crossDissolve
+            emptyViewController.modalPresentationStyle = .overCurrentContext
+            present(emptyViewController, animated: true, completion: nil)
+        }
+        
+    }
+    
+    private func fireMapAction() {
+        self.performSegue(withIdentifier: "mapSegue", sender: nil)
     }
     
 }

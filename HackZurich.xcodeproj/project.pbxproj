@@ -23,12 +23,16 @@
 		FA4FC451214C901B00812732 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC44A214C8DA500812732 /* Poppins-Regular.ttf */; };
 		FA4FC452214C901B00812732 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC44B214C8DA500812732 /* Poppins-SemiBold.ttf */; };
 		FA4FC456214D002000812732 /* HMKPillsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FC455214D002000812732 /* HMKPillsTableViewController.swift */; };
-		FAB5CDDE214D10AA00ED1A07 /* HMKPillAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5CDDD214D10AA00ED1A07 /* HMKPillAPI.swift */; };
+		FAB5CDDE214D10AA00ED1A07 /* HMKPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5CDDD214D10AA00ED1A07 /* HMKPill.swift */; };
 		FAB5CDE2214D3CDA00ED1A07 /* HMKDosage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5CDE1214D3CDA00ED1A07 /* HMKDosage.swift */; };
 		FABBBAED214D45A3003AB577 /* HMKPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAEC214D45A3003AB577 /* HMKPopupViewController.swift */; };
 		FABBBAEF214D4E6A003AB577 /* HMKMyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAEE214D4E6A003AB577 /* HMKMyListViewController.swift */; };
 		FABBBAF1214D5423003AB577 /* HMKMyListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAF0214D5423003AB577 /* HMKMyListItem.swift */; };
 		FABBBAF3214D5E00003AB577 /* HMKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAF2214D5E00003AB577 /* HMKButton.swift */; };
+		FABBBAF6214D87AD003AB577 /* HMKMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAF5214D87AD003AB577 /* HMKMapViewController.swift */; };
+		FABBBAF8214D8E50003AB577 /* HMKMapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAF7214D8E50003AB577 /* HMKMapItem.swift */; };
+		FABBBAFA214D9137003AB577 /* HMKPharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAF9214D9137003AB577 /* HMKPharmacy.swift */; };
+		FAF7F5EE214DAC5A00A8511C /* HMKEmptyDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7F5ED214DAC5A00A8511C /* HMKEmptyDrugViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,12 +70,16 @@
 		FA4FC44B214C8DA500812732 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		FA4FC44C214C8DA500812732 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		FA4FC455214D002000812732 /* HMKPillsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKPillsTableViewController.swift; sourceTree = "<group>"; };
-		FAB5CDDD214D10AA00ED1A07 /* HMKPillAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKPillAPI.swift; sourceTree = "<group>"; };
+		FAB5CDDD214D10AA00ED1A07 /* HMKPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKPill.swift; sourceTree = "<group>"; };
 		FAB5CDE1214D3CDA00ED1A07 /* HMKDosage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKDosage.swift; sourceTree = "<group>"; };
 		FABBBAEC214D45A3003AB577 /* HMKPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKPopupViewController.swift; sourceTree = "<group>"; };
 		FABBBAEE214D4E6A003AB577 /* HMKMyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKMyListViewController.swift; sourceTree = "<group>"; };
 		FABBBAF0214D5423003AB577 /* HMKMyListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKMyListItem.swift; sourceTree = "<group>"; };
 		FABBBAF2214D5E00003AB577 /* HMKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKButton.swift; sourceTree = "<group>"; };
+		FABBBAF5214D87AD003AB577 /* HMKMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKMapViewController.swift; sourceTree = "<group>"; };
+		FABBBAF7214D8E50003AB577 /* HMKMapItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKMapItem.swift; sourceTree = "<group>"; };
+		FABBBAF9214D9137003AB577 /* HMKPharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKPharmacy.swift; sourceTree = "<group>"; };
+		FAF7F5ED214DAC5A00A8511C /* HMKEmptyDrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKEmptyDrugViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,17 +148,15 @@
 				FAB5CDDC214D109A00ED1A07 /* API */,
 				FA4FC44D214C8DAB00812732 /* Font */,
 				FA4FC426214C327800812732 /* AppDelegate.swift */,
-				FA4FC428214C327800812732 /* HMKDashboardViewController.swift */,
+				FABBBAF4214D83E2003AB577 /* Controllers */,
 				FA4FC42A214C327800812732 /* Main.storyboard */,
 				FA4FC42D214C327900812732 /* Assets.xcassets */,
 				FA4FC42F214C327900812732 /* LaunchScreen.storyboard */,
 				FA4FC432214C327900812732 /* Info.plist */,
 				FA4FC446214C7B0A00812732 /* HMKDashboardView.swift */,
 				48DAF324C65888DB7441D37F /* HMKColor.swift */,
-				FA4FC455214D002000812732 /* HMKPillsTableViewController.swift */,
-				FABBBAEC214D45A3003AB577 /* HMKPopupViewController.swift */,
-				FABBBAEE214D4E6A003AB577 /* HMKMyListViewController.swift */,
 				FABBBAF2214D5E00003AB577 /* HMKButton.swift */,
+				FABBBAF9214D9137003AB577 /* HMKPharmacy.swift */,
 			);
 			path = HackZurich;
 			sourceTree = "<group>";
@@ -179,11 +185,25 @@
 		FAB5CDDC214D109A00ED1A07 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				FAB5CDDD214D10AA00ED1A07 /* HMKPillAPI.swift */,
+				FAB5CDDD214D10AA00ED1A07 /* HMKPill.swift */,
 				FAB5CDE1214D3CDA00ED1A07 /* HMKDosage.swift */,
 				FABBBAF0214D5423003AB577 /* HMKMyListItem.swift */,
+				FABBBAF7214D8E50003AB577 /* HMKMapItem.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		FABBBAF4214D83E2003AB577 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA4FC428214C327800812732 /* HMKDashboardViewController.swift */,
+				FA4FC455214D002000812732 /* HMKPillsTableViewController.swift */,
+				FABBBAEC214D45A3003AB577 /* HMKPopupViewController.swift */,
+				FABBBAEE214D4E6A003AB577 /* HMKMyListViewController.swift */,
+				FABBBAF5214D87AD003AB577 /* HMKMapViewController.swift */,
+				FAF7F5ED214DAC5A00A8511C /* HMKEmptyDrugViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,12 +339,16 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework",
+				"${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UberCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UberRides.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -359,12 +383,16 @@
 				FA4FC429214C327800812732 /* HMKDashboardViewController.swift in Sources */,
 				FA4FC456214D002000812732 /* HMKPillsTableViewController.swift in Sources */,
 				FABBBAF3214D5E00003AB577 /* HMKButton.swift in Sources */,
+				FABBBAFA214D9137003AB577 /* HMKPharmacy.swift in Sources */,
 				FABBBAED214D45A3003AB577 /* HMKPopupViewController.swift in Sources */,
 				FAB5CDE2214D3CDA00ED1A07 /* HMKDosage.swift in Sources */,
 				FA4FC427214C327800812732 /* AppDelegate.swift in Sources */,
+				FABBBAF8214D8E50003AB577 /* HMKMapItem.swift in Sources */,
+				FABBBAF6214D87AD003AB577 /* HMKMapViewController.swift in Sources */,
 				FA4FC447214C7B0A00812732 /* HMKDashboardView.swift in Sources */,
+				FAF7F5EE214DAC5A00A8511C /* HMKEmptyDrugViewController.swift in Sources */,
 				FABBBAF1214D5423003AB577 /* HMKMyListItem.swift in Sources */,
-				FAB5CDDE214D10AA00ED1A07 /* HMKPillAPI.swift in Sources */,
+				FAB5CDDE214D10AA00ED1A07 /* HMKPill.swift in Sources */,
 				FABBBAEF214D4E6A003AB577 /* HMKMyListViewController.swift in Sources */,
 				48DAF4FBFCBB1C19B630A877 /* HMKColor.swift in Sources */,
 			);

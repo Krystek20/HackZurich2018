@@ -53,5 +53,22 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UberClientID</key>
+	<string>Ea2FSVGsCPjsshgpzbUQxZgqUT1hcpQ1</string>
+	<key>UberServerToken</key>
+	<string>1dqq0ECICQ_Q9q_H-Ngqu0m4rOkd2TITaGvy6nkO</string>
+	<key>UberDisplayName</key>
+	<string>HomeMedKIT</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>uber</string>
+		<string>uberauth</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location when use!</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Location always!</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Location description!</string>
 </dict>
 </plist>
