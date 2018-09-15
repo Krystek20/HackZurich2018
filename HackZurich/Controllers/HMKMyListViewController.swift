@@ -68,6 +68,19 @@ extension HMKMyListViewController: UITableViewDataSource {
         return cell
     }
     
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        
+        if editingStyle == .delete {
+            let object = items[indexPath.row]
+            items.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+            Alamofire.request("https://2be030bd.ngrok.io/drugs/\(object.swissId!)", method: .delete)
+
+        }
+    }
+    
     @objc func pressButton(sender: HMKButton) {
         guard let swissId = sender.identifier, let loader = self.storyboard?.instantiateViewController(withIdentifier: "HMKLoaderViewControllerId") else { return }
         

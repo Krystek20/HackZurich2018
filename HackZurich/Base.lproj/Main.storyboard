@@ -291,9 +291,6 @@
                                                         <integer key="value" value="3"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="AwY-sq-ACM" appends="YES" id="Atu-q9-iIa"/>
-                                                </connections>
                                             </view>
                                         </subviews>
                                     </stackView>
@@ -339,11 +336,6 @@
                 <tapGestureRecognizer id="Dhj-MS-tUn">
                     <connections>
                         <segue destination="dC9-0B-qPj" kind="presentation" modalTransitionStyle="crossDissolve" id="Yl3-q0-nQZ"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="AwY-sq-ACM">
-                    <connections>
-                        <segue destination="Ckw-yl-6fN" kind="show" id="9pL-Gz-0qo"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -673,21 +665,6 @@
             </objects>
             <point key="canvasLocation" x="733.60000000000002" y="-162.3688155922039"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Ve9-27-QlS">
-            <objects>
-                <viewController id="Ckw-yl-6fN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NVE-qT-bdy">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="KGw-ow-R7W"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ent-TX-yyH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="734" y="548"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="wtV-cX-dCl">
             <objects>
@@ -829,6 +806,6 @@
         <image name="successIcon" width="75" height="75"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aUa-ou-VNh"/>
+        <segue reference="a1G-cG-Eg2"/>
     </inferredMetricsTieBreakers>
 </document>
