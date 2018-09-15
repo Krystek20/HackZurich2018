@@ -1,4 +1,5 @@
 import UIKit
+import Alamofire
 
 class HMKDashboardViewController: UIViewController {
 
@@ -9,6 +10,21 @@ class HMKDashboardViewController: UIViewController {
     @IBOutlet weak var findShop: UIView!
     @IBOutlet weak var listButton: UIView!
     @IBOutlet weak var settingsButton: UIView!
+    
+    @IBOutlet weak var allLabel: UILabel!
+    @IBOutlet weak var lowAmountLabel: UILabel!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        Alamofire.request("https://2be030bd.ngrok.io/drugs", method: .get, parameters: nil, encoding: Alamofire.JSONEncoding.default, headers: nil).responseJSON { response in
+            
+            if let json = response.result.value as? [String : Any] {
+                self.allLabel.text = String(json["all"] as? Int ?? 0)
+                self.lowAmountLabel.text = String(json["low_amount_count"] as? Int ?? 0)
+            }
+        }
+    }
     
     override func viewDidLoad() {
 

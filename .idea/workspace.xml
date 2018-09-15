@@ -2,43 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b42358b-6c17-45cd-84e2-f6b5a5f72203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/listIcon.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/listIcon.imageset/listIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/listIcon.imageset/listIcon@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/listIcon.imageset/listIcon@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/mapsIcon.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/mapsIcon.imageset/mapsIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/mapsIcon.imageset/mapsIcon@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/mapsIcon.imageset/mapsIcon@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/medicineEmpty.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/medicineEmpty.imageset/medicineEmpty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/medicineEmpty.imageset/medicineEmpty@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/medicineEmpty.imageset/medicineEmpty@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/medicineIcon.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/medicineIcon.imageset/medicineIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/medicineIcon.imageset/medicineIcon@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/medicineIcon.imageset/medicineIcon@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/searchIcon.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/searchIcon.imageset/searchIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/searchIcon.imageset/searchIcon@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/searchIcon.imageset/searchIcon@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/settingsIcon.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/settingsIcon.imageset/settingsIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/settingsIcon.imageset/settingsIcon@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/settingsIcon.imageset/settingsIcon@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Font/Poppins-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Font/Poppins-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Font/Poppins-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Font/Poppins-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/Font/Poppins-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/HMKColor.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/HMKDashboardView.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/HMKDashboardViewController.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackZurich/HMKPillsTableViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich.xcworkspace/xcuserdata/Krystek.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/API/HMKDosage.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/API/HMKMyListItem.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/API/HMKPillAPI.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/closeIcon.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/closeIcon.imageset/closeIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/closeIcon.imageset/closeIcon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/closeIcon.imageset/closeIcon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/startSearchingIcon.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/startSearchingIcon.imageset/startSearchingIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/startSearchingIcon.imageset/startSearchingIcon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/startSearchingIcon.imageset/startSearchingIcon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/successIcon.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/successIcon.imageset/successIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/successIcon.imageset/successIcon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/Assets.xcassets/successIcon.imageset/successIcon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/HMKButton.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/HMKMyListViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackZurich/HMKPopupViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Krystek.xcuserdatad/xcschemes/SnapKit.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/Constraint.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintAttributes.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintConfig.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintConstantTarget.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintDSL.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintDescription.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintInsetTarget.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintInsets.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintItem.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintLayoutGuide+Extensions.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintLayoutGuide.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintLayoutGuideDSL.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintLayoutSupport.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintLayoutSupportDSL.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMaker.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerEditable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerExtendable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerFinalizable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerPriortizable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerRelatable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMultiplierTarget.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintOffsetTarget.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintPriority.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintPriorityTarget.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintRelatableTarget.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintRelation.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintView+Extensions.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintViewDSL.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/Debugging.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/LayoutConstraint.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/LayoutConstraintItem.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/Typealiases.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/UILayoutSupport+Extensions.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/SnapKit/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/SnapKit/SnapKit-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/SnapKit/SnapKit-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/SnapKit/SnapKit.modulemap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/SnapKit/SnapKit.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HackZurich.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/HackZurich.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HackZurich/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/HackZurich/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackZurich/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/HackZurich/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackZurich/ViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackZurich/HMKPillsTableViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HackZurich/HMKPillsTableViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Krystek.xcuserdatad/xcschemes/Pods-HackZurich.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Krystek.xcuserdatad/xcschemes/Pods-HackZurich.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Krystek.xcuserdatad/xcschemes/Pods-HackZurichTests.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Krystek.xcuserdatad/xcschemes/Pods-HackZurichTests.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Krystek.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Krystek.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich-acknowledgements.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich-acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich-frameworks.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurichTests/Pods-HackZurichTests.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurichTests/Pods-HackZurichTests.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurichTests/Pods-HackZurichTests.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HackZurichTests/Pods-HackZurichTests.release.xcconfig" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/HackZurich-fmxvmirdgdxpbqdgusoaaxqqnede/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,42 +102,45 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="swift" value="454" />
+          <entry key="swift" value="651" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Swift" value="454" />
+          <entry key="Swift" value="651" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="swift" value="1" />
+          <entry key="swift" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Swift" value="1" />
+          <entry key="Swift" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackZurich/HMKDashboardViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="533">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HackZurich/HMKDashboardView.swift">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HackZurich/HMKPillsTableViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="503">
+              <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackZurich/HMKColor.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+            <state relative-caret-position="240">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -118,6 +165,7 @@
         <option value="$PROJECT_DIR$/HackZurich/HMKColor.swift" />
         <option value="$PROJECT_DIR$/HackZurich/HMKDashboardView.swift" />
         <option value="$PROJECT_DIR$/HackZurich/HMKDashboardViewController.swift" />
+        <option value="$PROJECT_DIR$/HackZurich/HMKPillsTableViewController.swift" />
       </list>
     </option>
   </component>
@@ -195,12 +243,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536971710110</updated>
-      <workItem from="1536971713235" duration="2073000" />
+      <workItem from="1536971713235" duration="4321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2073000" />
+    <option name="totallyTimeSpent" value="4321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -235,24 +283,57 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HackZurich/HMKColor.swift">
+    <entry file="file://$PROJECT_DIR$/HackZurich/HMKDashboardViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+        <state relative-caret-position="533">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackZurich/HMKTableBackgroundView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/Resources/module_cache.zip!/ModuleCache/9F2000/4.1.2/arm64/iphoneos11.4/UIKit.UISearchBar/UIKit.UISearchBar.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-934">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HackZurich/HMKDashboardView.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HackZurich/HMKDashboardViewController.swift">
+    <entry file="jar://$APPLICATION_HOME_DIR$/Resources/module_cache.zip!/ModuleCache/9F2000/4.1.2/arm64/iphoneos11.4/UIKit.UISearchController/UIKit.UISearchController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="586">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackZurich/HMKColor.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackZurich/HMKPillsTableViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

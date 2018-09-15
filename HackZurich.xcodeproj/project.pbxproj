@@ -23,6 +23,12 @@
 		FA4FC451214C901B00812732 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC44A214C8DA500812732 /* Poppins-Regular.ttf */; };
 		FA4FC452214C901B00812732 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC44B214C8DA500812732 /* Poppins-SemiBold.ttf */; };
 		FA4FC456214D002000812732 /* HMKPillsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FC455214D002000812732 /* HMKPillsTableViewController.swift */; };
+		FAB5CDDE214D10AA00ED1A07 /* HMKPillAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5CDDD214D10AA00ED1A07 /* HMKPillAPI.swift */; };
+		FAB5CDE2214D3CDA00ED1A07 /* HMKDosage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5CDE1214D3CDA00ED1A07 /* HMKDosage.swift */; };
+		FABBBAED214D45A3003AB577 /* HMKPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAEC214D45A3003AB577 /* HMKPopupViewController.swift */; };
+		FABBBAEF214D4E6A003AB577 /* HMKMyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAEE214D4E6A003AB577 /* HMKMyListViewController.swift */; };
+		FABBBAF1214D5423003AB577 /* HMKMyListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAF0214D5423003AB577 /* HMKMyListItem.swift */; };
+		FABBBAF3214D5E00003AB577 /* HMKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBBAF2214D5E00003AB577 /* HMKButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,12 @@
 		FA4FC44B214C8DA500812732 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		FA4FC44C214C8DA500812732 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		FA4FC455214D002000812732 /* HMKPillsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKPillsTableViewController.swift; sourceTree = "<group>"; };
+		FAB5CDDD214D10AA00ED1A07 /* HMKPillAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKPillAPI.swift; sourceTree = "<group>"; };
+		FAB5CDE1214D3CDA00ED1A07 /* HMKDosage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKDosage.swift; sourceTree = "<group>"; };
+		FABBBAEC214D45A3003AB577 /* HMKPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKPopupViewController.swift; sourceTree = "<group>"; };
+		FABBBAEE214D4E6A003AB577 /* HMKMyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKMyListViewController.swift; sourceTree = "<group>"; };
+		FABBBAF0214D5423003AB577 /* HMKMyListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKMyListItem.swift; sourceTree = "<group>"; };
+		FABBBAF2214D5E00003AB577 /* HMKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,7 @@
 		FA4FC425214C327800812732 /* HackZurich */ = {
 			isa = PBXGroup;
 			children = (
+				FAB5CDDC214D109A00ED1A07 /* API */,
 				FA4FC44D214C8DAB00812732 /* Font */,
 				FA4FC426214C327800812732 /* AppDelegate.swift */,
 				FA4FC428214C327800812732 /* HMKDashboardViewController.swift */,
@@ -135,6 +148,9 @@
 				FA4FC446214C7B0A00812732 /* HMKDashboardView.swift */,
 				48DAF324C65888DB7441D37F /* HMKColor.swift */,
 				FA4FC455214D002000812732 /* HMKPillsTableViewController.swift */,
+				FABBBAEC214D45A3003AB577 /* HMKPopupViewController.swift */,
+				FABBBAEE214D4E6A003AB577 /* HMKMyListViewController.swift */,
+				FABBBAF2214D5E00003AB577 /* HMKButton.swift */,
 			);
 			path = HackZurich;
 			sourceTree = "<group>";
@@ -158,6 +174,16 @@
 				FA4FC44B214C8DA500812732 /* Poppins-SemiBold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		FAB5CDDC214D109A00ED1A07 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5CDDD214D10AA00ED1A07 /* HMKPillAPI.swift */,
+				FAB5CDE1214D3CDA00ED1A07 /* HMKDosage.swift */,
+				FABBBAF0214D5423003AB577 /* HMKMyListItem.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,11 +318,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -330,8 +358,14 @@
 			files = (
 				FA4FC429214C327800812732 /* HMKDashboardViewController.swift in Sources */,
 				FA4FC456214D002000812732 /* HMKPillsTableViewController.swift in Sources */,
+				FABBBAF3214D5E00003AB577 /* HMKButton.swift in Sources */,
+				FABBBAED214D45A3003AB577 /* HMKPopupViewController.swift in Sources */,
+				FAB5CDE2214D3CDA00ED1A07 /* HMKDosage.swift in Sources */,
 				FA4FC427214C327800812732 /* AppDelegate.swift in Sources */,
 				FA4FC447214C7B0A00812732 /* HMKDashboardView.swift in Sources */,
+				FABBBAF1214D5423003AB577 /* HMKMyListItem.swift in Sources */,
+				FAB5CDDE214D10AA00ED1A07 /* HMKPillAPI.swift in Sources */,
+				FABBBAEF214D4E6A003AB577 /* HMKMyListViewController.swift in Sources */,
 				48DAF4FBFCBB1C19B630A877 /* HMKColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,7 +530,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
 				INFOPLIST_FILE = HackZurich/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.mobilove.HackZurich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -512,7 +549,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
 				INFOPLIST_FILE = HackZurich/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.mobilove.HackZurich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -529,7 +569,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
 				INFOPLIST_FILE = HackZurichTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.mobilove.HackZurichTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -547,7 +591,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
 				INFOPLIST_FILE = HackZurichTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.mobilove.HackZurichTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
