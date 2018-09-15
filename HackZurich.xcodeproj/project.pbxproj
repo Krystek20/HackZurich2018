@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1218760183FDCE8FF82C4DD2 /* Pods_HackZurichTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4657D07C536635BE5E78D4A1 /* Pods_HackZurichTests.framework */; };
+		48DAF4FBFCBB1C19B630A877 /* HMKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DAF324C65888DB7441D37F /* HMKColor.swift */; };
+		5AC0EE5037140A731E29A45D /* Pods_HackZurich.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581A370EB3D69787E49E945C /* Pods_HackZurich.framework */; };
 		FA4FC427214C327800812732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FC426214C327800812732 /* AppDelegate.swift */; };
-		FA4FC429214C327800812732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FC428214C327800812732 /* ViewController.swift */; };
+		FA4FC429214C327800812732 /* HMKDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FC428214C327800812732 /* HMKDashboardViewController.swift */; };
 		FA4FC42C214C327800812732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC42A214C327800812732 /* Main.storyboard */; };
 		FA4FC42E214C327900812732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC42D214C327900812732 /* Assets.xcassets */; };
 		FA4FC431214C327900812732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC42F214C327900812732 /* LaunchScreen.storyboard */; };
 		FA4FC43C214C327900812732 /* HackZurichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FC43B214C327900812732 /* HackZurichTests.swift */; };
+		FA4FC447214C7B0A00812732 /* HMKDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FC446214C7B0A00812732 /* HMKDashboardView.swift */; };
+		FA4FC44E214C901B00812732 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC448214C8DA400812732 /* Poppins-Bold.ttf */; };
+		FA4FC44F214C901B00812732 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC44C214C8DA500812732 /* Poppins-Light.ttf */; };
+		FA4FC450214C901B00812732 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC449214C8DA400812732 /* Poppins-Medium.ttf */; };
+		FA4FC451214C901B00812732 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC44A214C8DA500812732 /* Poppins-Regular.ttf */; };
+		FA4FC452214C901B00812732 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4FC44B214C8DA500812732 /* Poppins-SemiBold.ttf */; };
+		FA4FC456214D002000812732 /* HMKPillsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FC455214D002000812732 /* HMKPillsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29AF2E07E414189B195AA6F4 /* Pods-HackZurich.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackZurich.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich.release.xcconfig"; sourceTree = "<group>"; };
+		4657D07C536635BE5E78D4A1 /* Pods_HackZurichTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackZurichTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DAF324C65888DB7441D37F /* HMKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMKColor.swift; sourceTree = "<group>"; };
+		50190B3EDF13E2FC141BE185 /* Pods-HackZurichTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackZurichTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackZurichTests/Pods-HackZurichTests.release.xcconfig"; sourceTree = "<group>"; };
+		581A370EB3D69787E49E945C /* Pods_HackZurich.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackZurich.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C98B0870F69261046F788D /* Pods-HackZurich.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackZurich.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A15D62BBEC2E5781B94580 /* Pods-HackZurichTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackZurichTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackZurichTests/Pods-HackZurichTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA4FC423214C327800812732 /* HackZurich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackZurich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4FC426214C327800812732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA4FC428214C327800812732 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA4FC428214C327800812732 /* HMKDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKDashboardViewController.swift; sourceTree = "<group>"; };
 		FA4FC42B214C327800812732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA4FC42D214C327900812732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA4FC430214C327900812732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +53,13 @@
 		FA4FC437214C327900812732 /* HackZurichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackZurichTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4FC43B214C327900812732 /* HackZurichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackZurichTests.swift; sourceTree = "<group>"; };
 		FA4FC43D214C327900812732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4FC446214C7B0A00812732 /* HMKDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKDashboardView.swift; sourceTree = "<group>"; };
+		FA4FC448214C8DA400812732 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		FA4FC449214C8DA400812732 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		FA4FC44A214C8DA500812732 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		FA4FC44B214C8DA500812732 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA4FC44C214C8DA500812732 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		FA4FC455214D002000812732 /* HMKPillsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMKPillsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC0EE5037140A731E29A45D /* Pods_HackZurich.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +75,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1218760183FDCE8FF82C4DD2 /* Pods_HackZurichTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3B49BC89F26D998F6A1543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73C98B0870F69261046F788D /* Pods-HackZurich.debug.xcconfig */,
+				29AF2E07E414189B195AA6F4 /* Pods-HackZurich.release.xcconfig */,
+				B4A15D62BBEC2E5781B94580 /* Pods-HackZurichTests.debug.xcconfig */,
+				50190B3EDF13E2FC141BE185 /* Pods-HackZurichTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B81753EDFC73E2896D6A9F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				581A370EB3D69787E49E945C /* Pods_HackZurich.framework */,
+				4657D07C536635BE5E78D4A1 /* Pods_HackZurichTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA4FC41A214C327800812732 = {
 			isa = PBXGroup;
 			children = (
 				FA4FC425214C327800812732 /* HackZurich */,
 				FA4FC43A214C327900812732 /* HackZurichTests */,
 				FA4FC424214C327800812732 /* Products */,
+				0C3B49BC89F26D998F6A1543 /* Pods */,
+				3B81753EDFC73E2896D6A9F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +125,16 @@
 		FA4FC425214C327800812732 /* HackZurich */ = {
 			isa = PBXGroup;
 			children = (
+				FA4FC44D214C8DAB00812732 /* Font */,
 				FA4FC426214C327800812732 /* AppDelegate.swift */,
-				FA4FC428214C327800812732 /* ViewController.swift */,
+				FA4FC428214C327800812732 /* HMKDashboardViewController.swift */,
 				FA4FC42A214C327800812732 /* Main.storyboard */,
 				FA4FC42D214C327900812732 /* Assets.xcassets */,
 				FA4FC42F214C327900812732 /* LaunchScreen.storyboard */,
 				FA4FC432214C327900812732 /* Info.plist */,
+				FA4FC446214C7B0A00812732 /* HMKDashboardView.swift */,
+				48DAF324C65888DB7441D37F /* HMKColor.swift */,
+				FA4FC455214D002000812732 /* HMKPillsTableViewController.swift */,
 			);
 			path = HackZurich;
 			sourceTree = "<group>";
@@ -96,6 +148,18 @@
 			path = HackZurichTests;
 			sourceTree = "<group>";
 		};
+		FA4FC44D214C8DAB00812732 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FA4FC448214C8DA400812732 /* Poppins-Bold.ttf */,
+				FA4FC44C214C8DA500812732 /* Poppins-Light.ttf */,
+				FA4FC449214C8DA400812732 /* Poppins-Medium.ttf */,
+				FA4FC44A214C8DA500812732 /* Poppins-Regular.ttf */,
+				FA4FC44B214C8DA500812732 /* Poppins-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA4FC440214C327900812732 /* Build configuration list for PBXNativeTarget "HackZurich" */;
 			buildPhases = (
+				0D95269B87D743A18F7C7C11 /* [CP] Check Pods Manifest.lock */,
 				FA4FC41F214C327800812732 /* Sources */,
 				FA4FC420214C327800812732 /* Frameworks */,
 				FA4FC421214C327800812732 /* Resources */,
+				917C9BD510E1AD2B8780D7B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA4FC443214C327900812732 /* Build configuration list for PBXNativeTarget "HackZurichTests" */;
 			buildPhases = (
+				F7CCB68CB393A4441AC43477 /* [CP] Check Pods Manifest.lock */,
 				FA4FC433214C327900812732 /* Sources */,
 				FA4FC434214C327900812732 /* Frameworks */,
 				FA4FC435214C327900812732 /* Resources */,
@@ -177,6 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4FC44E214C901B00812732 /* Poppins-Bold.ttf in Resources */,
+				FA4FC44F214C901B00812732 /* Poppins-Light.ttf in Resources */,
+				FA4FC450214C901B00812732 /* Poppins-Medium.ttf in Resources */,
+				FA4FC451214C901B00812732 /* Poppins-Regular.ttf in Resources */,
+				FA4FC452214C901B00812732 /* Poppins-SemiBold.ttf in Resources */,
 				FA4FC431214C327900812732 /* LaunchScreen.storyboard in Resources */,
 				FA4FC42E214C327900812732 /* Assets.xcassets in Resources */,
 				FA4FC42C214C327800812732 /* Main.storyboard in Resources */,
@@ -192,13 +264,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D95269B87D743A18F7C7C11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackZurich-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		917C9BD510E1AD2B8780D7B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackZurich/Pods-HackZurich-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7CCB68CB393A4441AC43477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackZurichTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA4FC41F214C327800812732 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4FC429214C327800812732 /* ViewController.swift in Sources */,
+				FA4FC429214C327800812732 /* HMKDashboardViewController.swift in Sources */,
+				FA4FC456214D002000812732 /* HMKPillsTableViewController.swift in Sources */,
 				FA4FC427214C327800812732 /* AppDelegate.swift in Sources */,
+				FA4FC447214C7B0A00812732 /* HMKDashboardView.swift in Sources */,
+				48DAF4FBFCBB1C19B630A877 /* HMKColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,15 +490,13 @@
 		};
 		FA4FC441214C327900812732 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C98B0870F69261046F788D /* Pods-HackZurich.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
 				INFOPLIST_FILE = HackZurich/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mobilove.HackZurich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -374,15 +506,13 @@
 		};
 		FA4FC442214C327900812732 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AF2E07E414189B195AA6F4 /* Pods-HackZurich.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
 				INFOPLIST_FILE = HackZurich/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mobilove.HackZurich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -392,17 +522,14 @@
 		};
 		FA4FC444214C327900812732 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A15D62BBEC2E5781B94580 /* Pods-HackZurichTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
 				INFOPLIST_FILE = HackZurichTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mobilove.HackZurichTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -413,17 +540,14 @@
 		};
 		FA4FC445214C327900812732 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50190B3EDF13E2FC141BE185 /* Pods-HackZurichTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
 				INFOPLIST_FILE = HackZurichTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mobilove.HackZurichTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
