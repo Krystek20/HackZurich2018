@@ -478,10 +478,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </mapView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="haa-qb-JP3">
-                                <rect key="frame" x="9.5" y="667" width="356.5" height="142"/>
+                                <rect key="frame" x="9.5" y="525" width="356.5" height="142"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drugstore Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="og9-kl-vXh">
-                                        <rect key="frame" x="10" y="10" width="336.5" height="33"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drugstore Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="og9-kl-vXh">
+                                        <rect key="frame" x="50" y="10" width="256.5" height="33"/>
                                         <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="20"/>
                                         <color key="textColor" red="0.023529411764705882" green="0.023529411764705882" blue="0.023529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -497,8 +497,8 @@
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="og9-kl-vXh" secondAttribute="bottom" constant="99" id="8UY-MX-UKf"/>
-                                    <constraint firstItem="og9-kl-vXh" firstAttribute="leading" secondItem="haa-qb-JP3" secondAttribute="leading" constant="10" id="GCX-GL-5Ct"/>
-                                    <constraint firstAttribute="trailing" secondItem="og9-kl-vXh" secondAttribute="trailing" constant="10" id="KnX-Dt-r9c"/>
+                                    <constraint firstItem="og9-kl-vXh" firstAttribute="leading" secondItem="haa-qb-JP3" secondAttribute="leading" constant="50" id="GCX-GL-5Ct"/>
+                                    <constraint firstAttribute="trailing" secondItem="og9-kl-vXh" secondAttribute="trailing" constant="50" id="KnX-Dt-r9c"/>
                                     <constraint firstAttribute="trailing" secondItem="4Nw-eb-JDK" secondAttribute="trailing" constant="10" id="LNJ-m1-X3T"/>
                                     <constraint firstItem="og9-kl-vXh" firstAttribute="top" secondItem="haa-qb-JP3" secondAttribute="top" constant="10" id="R8E-aZ-ejq"/>
                                     <constraint firstItem="4Nw-eb-JDK" firstAttribute="centerY" secondItem="og9-kl-vXh" secondAttribute="centerY" id="aoh-Tu-JQZ"/>
@@ -529,7 +529,7 @@
                             <constraint firstItem="xPy-2V-9XB" firstAttribute="bottom" secondItem="RsT-FK-PKc" secondAttribute="bottom" id="1wf-qM-yAp"/>
                             <constraint firstItem="Zef-BS-jox" firstAttribute="trailing" secondItem="xPy-2V-9XB" secondAttribute="trailing" id="8ay-eD-7gd"/>
                             <constraint firstItem="haa-qb-JP3" firstAttribute="centerX" secondItem="RsT-FK-PKc" secondAttribute="centerX" id="B52-hu-0zG"/>
-                            <constraint firstItem="haa-qb-JP3" firstAttribute="bottom" secondItem="RsT-FK-PKc" secondAttribute="bottom" constant="142" id="Dcb-C7-sts"/>
+                            <constraint firstItem="haa-qb-JP3" firstAttribute="bottom" secondItem="RsT-FK-PKc" secondAttribute="bottom" id="Dcb-C7-sts"/>
                             <constraint firstItem="xPy-2V-9XB" firstAttribute="leading" secondItem="Zef-BS-jox" secondAttribute="leading" id="KFb-UQ-1BF"/>
                             <constraint firstItem="xPy-2V-9XB" firstAttribute="top" secondItem="RsT-FK-PKc" secondAttribute="top" id="N4C-dQ-8YO"/>
                             <constraint firstItem="Zef-BS-jox" firstAttribute="trailing" secondItem="5uF-oO-b7B" secondAttribute="trailing" constant="10" id="RHV-3O-6Od"/>
