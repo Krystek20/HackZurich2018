@@ -478,7 +478,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </mapView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="haa-qb-JP3">
-                                <rect key="frame" x="9.5" y="525" width="356.5" height="142"/>
+                                <rect key="frame" x="9.5" y="667" width="356.5" height="142"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drugstore Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="og9-kl-vXh">
                                         <rect key="frame" x="50" y="10" width="256.5" height="33"/>
@@ -529,7 +529,7 @@
                             <constraint firstItem="xPy-2V-9XB" firstAttribute="bottom" secondItem="RsT-FK-PKc" secondAttribute="bottom" id="1wf-qM-yAp"/>
                             <constraint firstItem="Zef-BS-jox" firstAttribute="trailing" secondItem="xPy-2V-9XB" secondAttribute="trailing" id="8ay-eD-7gd"/>
                             <constraint firstItem="haa-qb-JP3" firstAttribute="centerX" secondItem="RsT-FK-PKc" secondAttribute="centerX" id="B52-hu-0zG"/>
-                            <constraint firstItem="haa-qb-JP3" firstAttribute="bottom" secondItem="RsT-FK-PKc" secondAttribute="bottom" id="Dcb-C7-sts"/>
+                            <constraint firstItem="haa-qb-JP3" firstAttribute="bottom" secondItem="RsT-FK-PKc" secondAttribute="bottom" constant="142" id="Dcb-C7-sts"/>
                             <constraint firstItem="xPy-2V-9XB" firstAttribute="leading" secondItem="Zef-BS-jox" secondAttribute="leading" id="KFb-UQ-1BF"/>
                             <constraint firstItem="xPy-2V-9XB" firstAttribute="top" secondItem="RsT-FK-PKc" secondAttribute="top" id="N4C-dQ-8YO"/>
                             <constraint firstItem="Zef-BS-jox" firstAttribute="trailing" secondItem="5uF-oO-b7B" secondAttribute="trailing" constant="10" id="RHV-3O-6Od"/>
